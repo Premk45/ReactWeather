@@ -1,0 +1,23 @@
+.CardInfo{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.Card{
+    border: 1px solid gray;
+    border-radius: 10px !important;
+    box-shadow: 3px 10px 10px  black !important;
+    transition: all ease 0.5s !important;
+}
+
+.Card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+    box-shadow: 5px 10px 10px rgb(187, 219, 230) !important; 
+    box-shadow: chocolate !important;
+}
+
+.InfoBox{
+    margin-bottom: 1rem;
+}
